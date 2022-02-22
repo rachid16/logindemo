@@ -1,6 +1,4 @@
-
 spring:
-  profiles: dev
   datasource:
     username: root
     url: jdbc:mysql://localhost:3307/registration
