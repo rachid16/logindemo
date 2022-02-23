@@ -1,7 +1,6 @@
 package com.rachid.logindemo.security.config;
 
 import com.rachid.logindemo.appuser.AppUserService;
-import com.rachid.logindemo.security.PasswordEncoder;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
