@@ -15,7 +15,6 @@ public class ConfirmationTokenService {
         confirmationTokenRepository.save(confirmationToken);
     }
 
-
     public Optional<ConfirmationToken> getToken(String token) {
         return confirmationTokenRepository.findByToken(token);
     }
